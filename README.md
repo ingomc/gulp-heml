@@ -15,6 +15,8 @@ HEML is an open source markup language for building responsive email. It gives y
 ## Use it in your gulpfile.js
 
 ```javascript
+const heml = require('gulp-heml');
+
 gulp.task('html', () => {
     gulp.src('./*.heml').pipe(heml({
         validate: 'soft', // validation levels - 'strict'|'soft'|'none'
