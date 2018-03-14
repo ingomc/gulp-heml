@@ -11,14 +11,17 @@
     "responsive",
     "mail",
     "gulp",
-    "gulpplugin",
     "plugin"
   ],
   "author": "Andre Bellmann",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "heml": "^1.1.3",
     "path": "^0.12.7",
     "through2": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingomc/gulp-heml.git"
   }
 }
