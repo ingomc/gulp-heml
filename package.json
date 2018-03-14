@@ -11,6 +11,7 @@
     "responsive",
     "mail",
     "gulp",
+    "gulpplugin",
     "plugin"
   ],
   "author": "Andre Bellmann",
